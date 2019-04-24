@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<COLLECTION version="10.6.1.1">
+<session id="1" protocol="1/2048/6" created="2/23/2019 10:42:36" updated="2/23/2019 10:57:52" apptype="0" flags="8978533" packet_count="75" data_size="4406" payload_size="209" stream_count="2">
+	<item source0="00:50:56:A6:84:6F" source1="172.16.8.99" source2="1549" target0="00:50:56:A6:47:6E" target1="172.16.8.5" target2="23" flags="10" packet_count="44" data_size="2484" payload_size="96" >
+	</item>
+	<item source0="00:50:56:A6:47:6E" source1="172.16.8.5" source2="23" target0="00:50:56:A6:84:6F" target1="172.16.8.99" target2="1549" flags="4" packet_count="31" data_size="1922" payload_size="113" >
+	</item>
+</session>
+<session id="2" protocol="1/2048/6" created="2/23/2019 10:59:25" updated="2/23/2019 10:59:40" apptype="22" flags="8978533" packet_count="54" data_size="9013" payload_size="6043" stream_count="2">
+	<item source0="00:50:56:A6:84:6F" source1="172.16.20.99" source2="1550" target0="00:50:56:A6:47:6E" target1="172.16.20.5" target2="22" flags="10" packet_count="32" data_size="4128" payload_size="2388" >
+	</item>
+	<item source0="00:50:56:A6:47:6E" source1="172.16.20.5" source2="22" target0="00:50:56:A6:84:6F" target1="172.16.20.99" target2="1550" flags="4" packet_count="22" data_size="4885" payload_size="3655" >
+	</item>
+</session>
+<session id="3" protocol="1/2048/6" created="2/23/2019 11:07:53" updated="2/23/2019 11:07:53" apptype="0" flags="8978533" packet_count="8" data_size="703" payload_size="229" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="49704" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="8036" flags="2" packet_count="4" data_size="246" payload_size="0" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="8036" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="49704" flags="12" packet_count="4" data_size="457" payload_size="229" >
+	</item>
+</session>
+<session id="4" protocol="1/2048/6" created="2/23/2019 11:09:05" updated="2/23/2019 11:09:05" apptype="0" flags="8978533" packet_count="8" data_size="507" payload_size="33" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="49706" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="416" flags="2" packet_count="4" data_size="246" payload_size="0" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="416" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="49706" flags="12" packet_count="4" data_size="261" payload_size="33" >
+	</item>
+</session>
+<session id="5" protocol="1/2048/6" created="2/23/2019 11:07:53" updated="2/23/2019 11:09:53" apptype="21" flags="8978533" packet_count="32" data_size="2515" payload_size="738" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="49703" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="21" flags="2" packet_count="15" data_size="934" payload_size="87" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="21" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="49703" flags="12" packet_count="17" data_size="1581" payload_size="651" >
+	</item>
+</session>
+<session id="6" protocol="1/2048/6" created="2/23/2019 11:09:02" updated="2/23/2019 11:10:05" apptype="21" flags="8978533" packet_count="29" data_size="2285" payload_size="664" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="49705" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="21" flags="2" packet_count="15" data_size="955" payload_size="102" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="21" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="49705" flags="12" packet_count="14" data_size="1330" payload_size="562" >
+	</item>
+</session>
+<session id="7" protocol="1/2048/1" created="2/23/2019 10:41:15" updated="2/23/2019 10:41:18" apptype="0" flags="8978533" packet_count="8" data_size="592" payload_size="320" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="0" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="0" flags="2" packet_count="4" data_size="296" payload_size="160" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="0" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="0" flags="12" packet_count="4" data_size="296" payload_size="160" >
+	</item>
+</session>
+<session id="8" protocol="1/2054/0" created="2/23/2019 10:42:36" updated="2/23/2019 10:59:25" apptype="0" flags="8454245" packet_count="6" data_size="306" payload_size="222" stream_count="1">
+	<item source0="00:50:56:A6:84:6F" source1="0.0.0.0" source2="0" target0="FF:FF:FF:FF:FF:FF" target1="0.0.0.0" target2="0" flags="2" packet_count="6" data_size="306" payload_size="222" >
+	</item>
+</session>
+<session id="9" protocol="1/2048/17" created="2/23/2019 10:46:31" updated="2/23/2019 11:10:30" apptype="0" flags="8454245" packet_count="3" data_size="729" payload_size="603" stream_count="1">
+	<item source0="00:50:56:A6:BD:4E" source1="172.16.0.99" source2="138" target0="FF:FF:FF:FF:FF:FF" target1="172.16.0.255" target2="138" flags="2" packet_count="3" data_size="729" payload_size="603" >
+	</item>
+</session>
+<session id="10" protocol="1/2048/17" created="2/23/2019 10:46:42" updated="2/23/2019 11:10:40" apptype="0" flags="8454245" packet_count="3" data_size="729" payload_size="603" stream_count="1">
+	<item source0="00:50:56:A6:84:6F" source1="172.16.8.99" source2="138" target0="FF:FF:FF:FF:FF:FF" target1="172.16.8.255" target2="138" flags="2" packet_count="3" data_size="729" payload_size="603" >
+	</item>
+</session>
+<session id="11" protocol="1/2048/17" created="2/23/2019 11:03:03" updated="2/23/2019 11:03:03" apptype="69" flags="8454245" packet_count="1" data_size="73" payload_size="31" stream_count="1">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="57260" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="69" flags="2" packet_count="1" data_size="73" payload_size="31" >
+	</item>
+</session>
+<session id="12" protocol="1/2048/17" created="2/23/2019 11:03:03" updated="2/23/2019 11:03:03" apptype="0" flags="8978533" packet_count="3" data_size="171" payload_size="45" stream_count="2">
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="60777" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="57260" flags="10" packet_count="2" data_size="92" payload_size="8" >
+	</item>
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="57260" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="60777" flags="4" packet_count="1" data_size="79" payload_size="37" >
+	</item>
+</session>
+<session id="13" protocol="1/2048/6" created="2/23/2019 11:06:06" updated="2/23/2019 11:06:07" apptype="0" flags="8978533" packet_count="6" data_size="356" payload_size="0" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="49701" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="22" flags="2" packet_count="3" data_size="194" payload_size="0" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="22" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="49701" flags="12" packet_count="3" data_size="162" payload_size="0" >
+	</item>
+</session>
+<session id="14" protocol="1/2048/6" created="2/23/2019 11:06:12" updated="2/23/2019 11:06:13" apptype="0" flags="8978533" packet_count="6" data_size="356" payload_size="0" stream_count="2">
+	<item source0="00:50:56:A6:BD:4E" source1="172.30.0.2" source2="49702" target0="00:50:56:A6:84:6F" target1="172.30.0.10" target2="22" flags="2" packet_count="3" data_size="194" payload_size="0" >
+	</item>
+	<item source0="00:50:56:A6:84:6F" source1="172.30.0.10" source2="22" target0="00:50:56:A6:BD:4E" target1="172.30.0.2" target2="49702" flags="12" packet_count="3" data_size="162" payload_size="0" >
+	</item>
+</session>
+</COLLECTION>

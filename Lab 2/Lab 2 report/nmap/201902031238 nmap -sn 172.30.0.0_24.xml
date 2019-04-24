@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1549226332" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.40" startstr="Sun Feb 03 12:38:52 2019" args="nmap -sn 172.30.0.0/24"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">
+Starting Nmap 7.40 ( https://nmap.org ) at 2019-02-03 12:38 Pacific Standard Time
+Nmap scan report for 172.30.0.2
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Host is up (0.00s latency).
+MAC Address: 00:50:56:A6:46:F5 (VMware)
+Nmap scan report for 172.30.0.11
+Host is up (0.00s latency).
+MAC Address: 00:50:56:A6:A9:11 (VMware)
+Nmap scan report for 172.30.0.10
+Host is up.
+Nmap done: 256 IP addresses (3 hosts up) scanned in 54.50 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.30.0.2"></address><address addrtype="mac" vendor="VMware" addr="00:50:56:A6:46:F5"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.30.0.11"></address><address addrtype="mac" vendor="VMware" addr="00:50:56:A6:A9:11"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.30.0.10"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Sun Feb 03 12:39:46 2019" time="1549226386"></finished><hosts down="253" total="256" up="3"></hosts></runstats></nmaprun>

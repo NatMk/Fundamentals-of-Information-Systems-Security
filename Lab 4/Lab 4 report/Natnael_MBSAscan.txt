@@ -1,0 +1,111 @@
+Security assessment: Severe Risk
+Computer name: SECURELABS\WIN-K3V2FSL211G
+IP address: 192.168.25.2
+Security report name: SECURELABS - WIN-K3V2FSL211G (2-15-2019 9-48 PM)
+Scan date: 2/15/2019 9:48 PM
+Scanned with MBSA version: 2.3.2211.0
+Catalog synchronization date: Security updates scan not performed
+
+
+  Operating System Scan Results 
+	
+    Administrative Vulnerabilities
+		
+	   Issue:  Local Account Password Test
+	   Score:  Check not performed
+	   Result: Password checks are not performed on a domain controller.
+
+	   Issue:  File System
+	   Score:  Check passed
+	   Result: All hard drives (1) are using the NTFS file system.
+	   Detail:
+			| Drive Letter | File System | 
+			| C: | NTFS | 
+
+	   Issue:  Password Expiration
+	   Score:  Check failed (non-critical)
+	   Result: Some user accounts (1 of 3) have non-expiring passwords. 
+	   Detail:
+			| User | 
+			| Guest | 
+
+	   Issue:  Guest Account
+	   Score:  Check passed
+	   Result: The Guest account is disabled on this computer.
+
+	   Issue:  Autologon
+	   Score:  Check passed
+	   Result: Autologon is not configured on this computer.
+
+	   Issue:  Restrict Anonymous
+	   Score:  Check passed
+	   Result: Computer is properly restricting anonymous access.
+
+	   Issue:  Administrators
+	   Score:  Check passed
+	   Result: No more than 2 Administrators were found on this computer. 
+	   Detail:
+			| User | 
+			| SECURELABS\Administrator | 
+			| SECURELABS\Enterprise Admins | 
+
+	   Issue:  Windows Firewall
+	   Score:  Best practice
+	   Result: Windows Firewall is disabled and has exceptions configured. 
+	   Detail:
+			| Connection Name | Firewall | Exceptions | 
+			| All Connections | Off | Services | 
+			| Student | Off* | Services* | 
+			| TrueLab | Off* | Services* | 
+
+	   Issue:  Automatic Updates
+	   Score:  Check failed (critical)
+	   Result: The Automatic Updates system service is not running.
+
+	   Issue:  Incomplete Updates
+	   Score:  Best practice
+	   Result: No incomplete software update installations were found.
+
+	Additional System Information
+		
+	   Issue:  Windows Version
+	   Score:  Best practice
+	   Result: Computer is running Microsoft Windows 8.1.
+
+	   Issue:  Auditing
+	   Score:  Best practice
+	   Result: Neither Logon Success nor Logon Failure auditing are enabled. Enable auditing and turn on auditing for specific events such as logon and logoff. Be sure to monitor your event log to watch for unauthorized access.
+
+	   Issue:  Shares
+	   Score:  Best practice
+	   Result: 4 share(s) are present on your computer. 
+	   Detail:
+			| Share | Directory | Share ACL | Directory ACL | 
+			| ADMIN$ | C:\Windows | Admin Share | NT SERVICE\TrustedInstaller -  F, NT AUTHORITY\SYSTEM -  RWXD, BUILTIN\Administrators -  RWXD, BUILTIN\Users -  RX, APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES -  RX | 
+			| C$ | C:\ | Admin Share | NT AUTHORITY\SYSTEM -  F, BUILTIN\Administrators -  F, BUILTIN\Users -  RX | 
+			| NETLOGON | C:\Windows\SYSVOL\sysvol\securelabsondemand.com\SCRIPTS | Everyone -  R, Administrators -  F | NT AUTHORITY\Authenticated Users -  RX, BUILTIN\Server Operators -  RX, BUILTIN\Administrators -  F, NT AUTHORITY\SYSTEM -  F | 
+			| SYSVOL | C:\Windows\SYSVOL\sysvol | Everyone -  R, Administrators -  F, NT AUTHORITY\Authenticated Users -  F | NT AUTHORITY\Authenticated Users -  RX, BUILTIN\Server Operators -  RX, BUILTIN\Administrators -  F, NT AUTHORITY\SYSTEM -  F, CREATOR OWNER -  F | 
+
+	   Issue:  Services
+	   Score:  Best practice
+	   Result: No potentially unnecessary services were found.
+
+
+  Internet Information Services (IIS) Scan Results
+	IIS is not running on this computer.
+
+  SQL Server Scan Results
+	SQL Server and/or MSDE is not installed on this computer.
+
+  Desktop Application Scan Results
+	
+	Administrative Vulnerabilities
+		
+	   Issue:  IE Zones
+	   Score:  Check passed
+	   Result: Internet Explorer zones have secure settings for all users.
+
+	   Issue:  Macro Security
+	   Score:  Check not performed
+	   Result: No supported Microsoft Office products are installed.
+

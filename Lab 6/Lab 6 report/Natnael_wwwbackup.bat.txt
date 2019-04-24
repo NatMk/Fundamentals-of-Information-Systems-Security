@@ -1,0 +1,3 @@
+cd \
+cd www
+xcopy * c:\backup /i /y
